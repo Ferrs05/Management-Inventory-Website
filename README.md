@@ -34,18 +34,4 @@ npm install
 npm run build
 ```
 
-## Google Auth
 
-Isi `.env`:
-
-```env
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GOOGLE_REDIRECT_URI="${APP_URL}/auth/google/callback"
-```
-
-Callback URL di Google Cloud Console harus sama dengan `GOOGLE_REDIRECT_URI`.
-
-## Catatan Composer
-
-Pada percobaan setup otomatis, koneksi Packagist/GitHub sempat gagal dan vendor Laravel tidak berhasil terunduh. Source aplikasi sudah disiapkan penuh; jalankan `composer install` saat koneksi stabil.

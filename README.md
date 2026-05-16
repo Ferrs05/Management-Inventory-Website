@@ -34,12 +34,6 @@ npm install
 npm run build
 ```
 
-Login awal:
-
-- Super Admin: `admin@example.com` / `password`
-- Staff: `staff@example.com` / `password`
-- User: `user@example.com` / `password`
-
 ## Google Auth
 
 Isi `.env`:

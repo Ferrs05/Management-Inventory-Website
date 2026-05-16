@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "latest",
+        "autoprefixer": "latest",
+        "axios": "latest",
+        "bootstrap": "^5.3.3",
+        "laravel-vite-plugin": "latest",
+        "postcss": "latest",
+        "sass": "latest",
+        "vite": "latest"
+    }
+}

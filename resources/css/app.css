@@ -1,0 +1,69 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+    --inventory-ink: #1f2937;
+    --inventory-muted: #667085;
+    --inventory-line: #d9e2ec;
+    --inventory-brand: #167f73;
+    --inventory-accent: #d99a2b;
+    --inventory-bg: #f7f9fb;
+}
+
+body {
+    color: var(--inventory-ink);
+    background: var(--inventory-bg);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.hero {
+    background: linear-gradient(120deg, rgba(22, 127, 115, .94), rgba(31, 41, 55, .88)), url('/images/inventory-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.stat-card,
+.item-card,
+.admin-panel {
+    border: 1px solid var(--inventory-line);
+    border-radius: .5rem;
+    background: #fff;
+}
+
+.badge-soft-success {
+    color: #146c43;
+    background: #d1e7dd;
+}
+
+.badge-soft-warning {
+    color: #997404;
+    background: #fff3cd;
+}
+
+.badge-soft-danger {
+    color: #842029;
+    background: #f8d7da;
+}
+
+.sidebar {
+    min-height: 100vh;
+    background: #243447;
+}
+
+.sidebar a {
+    color: rgba(255, 255, 255, .78);
+    text-decoration: none;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    color: #fff;
+    background: rgba(255, 255, 255, .1);
+}

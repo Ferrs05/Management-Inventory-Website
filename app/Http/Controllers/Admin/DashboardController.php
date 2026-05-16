@@ -19,6 +19,11 @@ class DashboardController extends Controller
             'activeBorrowCount' => BorrowRequest::where('status', BorrowRequest::STATUS_APPROVED)->count(),
             'userCount' => User::where('role', User::ROLE_USER)->count(),
             'recentRequests' => BorrowRequest::with(['user', 'item'])->latest()->take(8)->get(),
+            'pendingRequests' => BorrowRequest::with(['user', 'item'])
+                ->where('status', BorrowRequest::STATUS_PENDING)
+                ->latest()
+                ->take(10)
+                ->get(),
         ]);
     }
 }

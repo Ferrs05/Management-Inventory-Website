@@ -1,4 +1,4 @@
-@extends('layouts.admin', ['heading' => 'Tambah Barang'])
+@extends('layouts.admin', ['heading' => 'Tambah Item', 'breadcrumb' => 'Tambah Item'])
 
 @section('content')
 <div class="admin-panel p-4">
